@@ -1,51 +1,92 @@
 ---
-layout: default
-title: Implantação
-parent: "Opus Open Finance"
-nav_order: 3
-has_children: true
-lang: "pt-br"
+title: "Implantação"
+summary: "O processo de implantação da Plataforma Opus Open Finance segue uma sequência de etapas bem definida que incluem desde a correta configuração dos ambientes d..."
 ---
 
-# Implantação
+## Implantação da Plataforma
 
-Esta seção é o guia central de implantação da Plataforma Opus Open Finance. Ela está organizada por **perfil de participação**, porque o que cada instituição precisa fazer depende diretamente do papel que ela ocupa no ecossistema do Open Finance Brasil.
+O processo de implantação da **Plataforma Opus Open Finance** segue uma sequência de etapas bem definida que incluem desde a correta configuração dos ambientes de execução necessários até a efetiva entrada em produção. A equipe da Opus acompanha todos os passos da implantação, que serão apresentados abaixo, de maneira a garantir o sucesso de cada etapa.
 
-> Um Delivery Manager da Opus é designado para acompanhar todo o processo de implantação. As etapas descritas aqui refletem o que a instituição precisa entregar — a Opus cuida das etapas técnicas de configuração e certificação.
+Durante a implantação, um **Delivery Manager** do time da Opus é designado para gerenciar o processo de ponta a ponta, mantendo o contato contínuo com o cliente. Após a implantação, a Opus e o cliente deverão definir quem serão os pontos focais para o dia a dia do relacionamento, tanto para acompanhar a operação e o devido cumprimento dos SLAs regulatórios quanto para avaliar e implementar novas exigências regulatórias.
 
----
-
-## Por onde começar
-
-Antes de mergulhar nas etapas específicas do seu perfil, duas atividades são comuns a todos:
-
-**1. Definir o modelo de implantação**
-> ⚠️ *[PLACEHOLDER — aguarda informações da Opus]* — Descrever aqui as diferenças entre SaaS e On Premises, o que cada modelo implica para a instituição e como escolher.
-
-**2. Obter os certificados digitais**
-Todos os perfis precisam de certificados digitais. Os tipos variam conforme o perfil — veja a página [Certificados Digitais](certificados/certificados.html) para entender quais você precisa.
+Um ponto importante a ressaltar é que as etapas mais trabalhosas do processo de implantação são aquelas relacionadas à integração da **Plataforma Opus Open Finance** aos sistemas de retaguarda e canais de atendimento (aplicativo móvel e Web Internet Banking) da instituição financeira. Tais etapas exigem o desenvolvimento de novos artefatos de software e a adaptação das aplicações de atendimento aos clientes. Na documentação, existem seções específicas que detalham as etapas de integração necessárias para cada perfil de participação da instituição financeira no *Open Finance Brasil*.
 
 ---
 
-## Checklists por perfil
+## Roadmap de Implantação
 
-Selecione o perfil da sua instituição para ver o checklist completo de implantação:
+![Roadmap](./anexos/imagens/index-roadmap.png)
 
-| Perfil | O que faz no Open Finance |
-|---|---|
-| [**Detentor de Conta / Transmissor de Dados**](integracao/detentor-transmissor/checklist.html) | Recebe pedidos de pagamento e/ou compartilha dados de clientes com outras instituições |
-| [**Iniciador de Transação de Pagamento (ITP)**](integracao/itp/checklist.html) | Inicia pagamentos em nome de clientes em outras instituições |
-| [**Receptor de Dados**](integracao/receptor/checklist.html) | Recebe e consolida dados financeiros de clientes de outras instituições |
+### 1. **Kickoff**
 
-> Uma mesma instituição pode atuar em mais de um perfil. Nesse caso, consulte os checklists de cada perfil separadamente — há etapas e certificados específicos para cada um.
+- Apresentação do plano de projeto com detalhamento de atividades e cronograma;
+- Definição da equipe necessária para cada etapa do processo;
+- Introdução à equipe de implantação.
 
 ---
 
-## Tópicos transversais
+### 2. **Configuração dos Ambientes**
 
-Páginas que se aplicam a múltiplos perfis e são referenciadas nos checklists:
+- Provisionamento dos ambientes:
+  - Desenvolvimento;
+  - Homologação;
+  - Produção.
+- Configuração da **Plataforma Opus Open Finance** nos ambientes;
+- Configuração do *sandbox* do diretório de participantes do Open Finance Brasil, que é o ambiente seguro de testes do ecossistema voltado para a realização de testes de integração.
 
-- [Certificados Digitais](certificados/certificados.html) — quais certificados cada perfil precisa e como obtê-los
-- [Diretório de Participantes — Homologação](diretorio-hml/diretorio-hml.html) — como criar conta, configurar e operar no sandbox
-- [Interface de Usuário](interface-usuario/interface-usuario.html) — opções de jornada de consentimento (Webview, app próprio, Internet Banking, Handoff)
-- [Camada de Integração](camada-integracao/camada-integracao.html) — como conectar a Plataforma aos sistemas de retaguarda da instituição
+---
+
+### 3. **Certificação OpenID**
+
+- Execução de testes para validação do ambiente de homologação;
+- Preparação das evidências para envio à OpenID ([certificações RP e OP](../../openFinanceBrasil/certificacoesECertificados));
+- Efetuação do pagamento da taxa de certificação.
+- Publicação da instituição no [site oficial da OpenID][Site-OpenID].
+
+---
+
+### 4. **Integração das Telas**
+
+- Construção das telas da [jornada de consentimento](../../openFinanceBrasil/jornadaConsentimento/index):
+  - Para web, aplicativo e handoff (caso necessário);
+  - Segundo o [guia de experiência do usuário](https://guia-de-ux-open-finance-brasil.scroll.site/guia-de-experi-ncia-open-finance-brasil/v.22.00.01/compartilhamento-de-dados) do *Open Finance Brasil*.
+- Execução de testes da jornada de consentimento;
+- Integração completa da jornada nos canais da instituição.
+
+---
+
+### 5. **Layer de Integração**
+
+- Integração dos sistemas de retaguarda da instituição ao produto, conforme o [perfil de participação da instituição financeira](../../openFinanceBrasil/perfisParticipacao/index). Tipicamente, [envolve a construção do *layer de integração*](../integracaoDaPlataforma/index) adaptado aos sistemas de retaguarda da instituição.
+- **Nota:** Normalmente, não é necessário adaptar os sistemas de retaguarda em si, mas mapear a forma de extração das informações referentes a cada produto financeiro oferecido pela instituição (no caso do perfil transmissor de dados), ou a forma de realizar pagamentos e consultar o resultado dessas operações (no caso do perfil detentor de conta). A camada de integração funciona justamente como um adaptador entre os formatos internos dos sistemas de retaguarda e aqueles exigidos pelo *Open Finance Brasil*.
+
+---
+
+### 6. **Migração**
+
+- Migração de consentimentos e DCRs para a nova base do produto;
+- Necessária apenas para instituições que já participam do Open Finance com outra solução ou tecnologia própria.
+
+---
+
+### 7. **Configurações Finais**
+
+- Testes da jornada completa com layer de integração e telas prontas;
+- Execução de testes funcionais;
+- Configuração do diretório de participantes de produção.
+
+---
+
+### 8. **Certificados Digitais**
+
+- Aquisição dos [certificados digitais](../../openFinanceBrasil/certificacoesECertificados);
+- Cadastro dos certificados no diretório.
+
+---
+
+### 9. **Go-Live**
+
+- Início do monitoramento da solução;
+- Envio de relatórios regulatórios.
+
+[Site-OpenID]: https://openid.net/certification/#FAPI_OPs
