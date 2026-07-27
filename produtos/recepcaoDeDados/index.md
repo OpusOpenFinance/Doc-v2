@@ -17,6 +17,5 @@ Produto da Plataforma Opus Open Finance para instituições que atuam como **Rec
 ## APIs (API Reference)
 
 - [Recepção de Dados — Open Finance](/reference/recepcao-de-dados)
-- [Recepção de Dados — Open Insurance](/reference/recepcao-de-dados-open-insurance)
 
 > ⚠️ **A avisar / preencher:** o conteúdo dedicado de Recepção de Dados hoje se resume ao fluxo em `recepcaoDeDados`. Tópicos próprios de recepção (paginação, tipos de recurso por API, tratamento de erros específicos) ainda **não existem** como páginas separadas — precisam ser escritos ou extraídos do detalhe das APIs.

@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: OpusTPP - Webhooks
+  title: Webhooks de Pagamentos
   version: 1.0.0
   description: |2-
      Opus Open Client - Core de gestão de informações 
