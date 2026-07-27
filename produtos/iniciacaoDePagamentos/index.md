@@ -22,4 +22,4 @@ Produto da Plataforma Opus Open Finance para instituições que atuam como **Ini
 - [Pagamentos Automáticos](/reference/automaticpaymentspostrecurringconsents)
 - [Pagamentos sem Redirecionamento](/reference/postenrollments)
 - [Webhooks de Pagamentos](/reference/oofcwebhookpostconsentpixpayments)
-- [Backoffice](/reference/backoffice)
+- [Backoffice](/reference/getbackofficeconsents)
