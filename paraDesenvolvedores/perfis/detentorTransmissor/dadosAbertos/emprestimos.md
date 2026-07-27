@@ -11,4 +11,4 @@ Clique [**aqui**](./anexos/json/openData-loans.json) para fazer o download do ar
 
 Para os possíveis valores de cada chave JSON consulte a [API associada][Link-API].
 
-[Link-API]: /reference/open-data-loans
+[Link-API]: /reference/getbusinessloans

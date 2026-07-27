@@ -11,4 +11,4 @@ Clique [**aqui**](./anexos/json/openData-capitalizationBonds.json) para fazer o 
 
 Para os possíveis valores de cada chave JSON consulte a [API associada][Link-API].
 
-[Link-API]: /reference/open-data-capitalization
+[Link-API]: /reference/capitalizationbondsgetproducts

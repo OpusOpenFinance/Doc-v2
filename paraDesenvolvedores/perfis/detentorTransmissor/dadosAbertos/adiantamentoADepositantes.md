@@ -11,4 +11,4 @@ Clique [**aqui**](./anexos/json/openData-unarrangedAccountOverdraft.json) para f
 
 Para os possíveis valores de cada chave JSON consulte a [API associada][Link-API].
 
-[Link-API]: /reference/open-data-unarranged
+[Link-API]: /reference/getbusinessunarrangedaccountoverdraft

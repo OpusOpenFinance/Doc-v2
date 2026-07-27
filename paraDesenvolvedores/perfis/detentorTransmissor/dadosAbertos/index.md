@@ -83,19 +83,19 @@ São apresentadas abaixo as APIs regulatórias referentes a Dados Abertos e exem
 |Previdência                       |[Link][Pension]        |[JSON][Pension-JSON]        |
 |Câmbio                            |[Link][Exchange]       |[JSON][Exchange-JSON]       |
 
-[Acquiring]: /reference/open-data-acquiring
-[Accounts]: /reference/open-data-accounts
-[Capitalization]: /reference/open-data-capitalization
-[Channels]: /reference/open-data-channels
-[CreditCard]: /reference/open-data-credit-cards
-[Exchange]: /reference/open-data-exchange
-[Financings]: /reference/open-data-financings
-[Insurance]: /reference/open-data-insurance
-[Investments]: /reference/open-data-investments
-[Inv-financings]: /reference/open-data-invoice-financings
-[Loans]: /reference/open-data-loans
-[Pension]: /reference/open-data-pension
-[Unarranged]: /reference/open-data-unarranged
+[Acquiring]: /reference/getbusinessacquiringservices
+[Accounts]: /reference/getbusinessaccounts
+[Capitalization]: /reference/capitalizationbondsgetproducts
+[Channels]: /reference/getbankingagents
+[CreditCard]: /reference/getbusinesscreditcards
+[Exchange]: /reference/exchangegetonlinerate
+[Financings]: /reference/getbusinessfinancings
+[Insurance]: /reference/getpersonalinsurance
+[Investments]: /reference/investmentsgetfixedincomebank
+[Inv-financings]: /reference/getbusinessinvoicefinancings
+[Loans]: /reference/getbusinessloans
+[Pension]: /reference/getpensionriskcoverages
+[Unarranged]: /reference/getbusinessunarrangedaccountoverdraft
 
 [Channels-JSON]: ../dadosAbertos/canaisAtendimento.html
 [Accounts-JSON]: ../dadosAbertos/contas.html

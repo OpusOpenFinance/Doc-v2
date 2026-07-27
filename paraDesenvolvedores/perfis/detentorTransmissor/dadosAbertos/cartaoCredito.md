@@ -11,4 +11,4 @@ Clique [**aqui**](./anexos/json/openData-creditCards.json) para fazer o download
 
 Para os possíveis valores de cada chave JSON consulte a [API associada][Link-API].
 
-[Link-API]: /reference/open-data-credit-cards
+[Link-API]: /reference/getbusinesscreditcards

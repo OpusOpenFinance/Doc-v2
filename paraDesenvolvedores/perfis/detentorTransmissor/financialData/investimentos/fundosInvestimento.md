@@ -19,9 +19,9 @@ Em linhas gerais, existem *endpoints* para:
 
 A documentação da API de fundos de investimento a ser construída na *camada de integração* pode ser encontrada [**aqui**][API-Fundos-de-Investimento].
 
-Para fazer o download do arquivo YAML/OAS que contém a especificação da API clique [**aqui**](/reference/funds).
+Para fazer o download do arquivo YAML/OAS que contém a especificação da API clique [**aqui**](/reference/discoverfunds).
 
 
 Alguns navegadores de internet, como *Chrome*, ocasionalmente sinalizam como *não segura* a operação de *download* de arquivos YAML, exigindo o desbloqueio manual pelo usuário. Esses arquivos, entretanto, têm conteúdo do tipo texto e não apresentam risco por si.
 
-[API-Fundos-de-Investimento]: /reference/fundos-investimento
+[API-Fundos-de-Investimento]: /reference/discoverfunds

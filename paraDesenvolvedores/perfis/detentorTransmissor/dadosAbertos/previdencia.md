@@ -11,4 +11,4 @@ Clique [**aqui**](./anexos/json/openData-pension.json) para fazer o download do 
 
 Para os possíveis valores de cada chave JSON consulte a [API associada][Link-API].
 
-[Link-API]: /reference/open-data-pension
+[Link-API]: /reference/getpensionriskcoverages
