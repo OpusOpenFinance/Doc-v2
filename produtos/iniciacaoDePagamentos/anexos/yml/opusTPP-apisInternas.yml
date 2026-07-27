@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: OpusTPP - APIs Internas
+  title: APIs Internas
   description: |-
     OpusTPP - Core de gestão de informações
 

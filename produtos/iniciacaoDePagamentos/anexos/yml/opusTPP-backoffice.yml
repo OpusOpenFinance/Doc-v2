@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Backoffice API
+  title: Backoffice
   description: |-
     OpusTPP - Backoffice Endpoints
 
@@ -41,7 +41,6 @@ paths:
         - $ref: '#/components/parameters/consentStatusList'
         - $ref: '#/components/parameters/consentId'
         - $ref: '#/components/parameters/consentIdList'
-        - $ref: '#/components/parameters/consentStatusList'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/orderType'
         - $ref: '#/components/parameters/pageSize'

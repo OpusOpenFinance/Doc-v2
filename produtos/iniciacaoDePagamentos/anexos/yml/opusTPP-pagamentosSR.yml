@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: OpusTPP - Pagamentos sem Redirecionamento
+  title: Pagamentos sem Redirecionamento
   description: |-
     OpusTPP - Core de gestão de dispositivos vinculados as contas
 
@@ -1102,7 +1102,7 @@ components:
             - enrollment
           properties:
             enrollmentId:
-              $ref: '#/components/parameters/enrollmentId'
+              $ref: '#/components/schemas/enrollmentId'
             enrollment:
               description: JWT contendo o objeto de vínculo de conta retornado pela detentora de conta conforme padrão definido pelo BACEN - https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/141557761/SV+API+-+Pagamentos+sem+Redirecionamento.
               $ref: '#/components/schemas/ResponseCreateEnrollmentJWT'
@@ -1120,7 +1120,7 @@ components:
               description: JWT contendo o objeto de vínculo de conta retornado pela detentora de conta conforme padrão definido pelo BACEN - https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/141557761/SV+API+-+Pagamentos+sem+Redirecionamento.
               $ref: '#/components/schemas/ResponseEnrollmentJWT'
             enrollmentId:
-              $ref: '#/components/parameters/enrollmentId'
+              $ref: '#/components/schemas/enrollmentId'
     PatchEnrollmentRequest:
       type: object
       required:
@@ -1483,7 +1483,7 @@ components:
             - loggedUser
           properties:
             enrollmentId:
-              $ref: '#/components/parameters/enrollmentId'
+              $ref: '#/components/schemas/enrollmentId'
             creationDateTime:
               type: string
               format: date-time
@@ -1551,7 +1551,7 @@ components:
             - loggedUser
           properties:
             enrollmentId:
-              $ref: '#/components/parameters/enrollmentId'
+              $ref: '#/components/schemas/enrollmentId'
             creationDateTime:
               type: string
               format: date-time
@@ -2037,7 +2037,7 @@ components:
             - fidoAssertion
           properties:
             enrollmentId:
-              $ref: '#/components/parameters/enrollmentId'
+              $ref: '#/components/schemas/enrollmentId'
             riskSignals:
               type: object
               required:

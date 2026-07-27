@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: OpusTPP - Pagamentos Automáticos
+  title: Pagamentos Automáticos
   description: |-
     OpusTPP - Core de gestão de consentimentos
 
