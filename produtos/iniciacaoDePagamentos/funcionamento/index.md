@@ -29,8 +29,8 @@ As instituições são classificadas por suas funções:
 
 | Tipo | Descrição | Finalidade |
 | ---- | --------- | ---------- |
-| **[Transmissora de Dados](../../openFinanceBrasil/perfisParticipacao/transmissorDeDados)** | Instituição que compartilha informações | Permite acesso a dados cadastrais e transacionais |
-| **[Detentora de Conta](../../openFinanceBrasil/perfisParticipacao/detentorDeContas)** | Instituição que custodia a conta do usuário | Permite operações de iniciação de pagamento |
+| **[Transmissora de Dados](/docs/transmissordedados)** | Instituição que compartilha informações | Permite acesso a dados cadastrais e transacionais |
+| **[Detentora de Conta](/docs/detentordecontas)** | Instituição que custodia a conta do usuário | Permite operações de iniciação de pagamento |
 
 > **Importante:** O `AuthorisationServerId` da marca selecionada deve ser utilizado no header `x-authorisation-server-id` de todas as chamadas subsequentes.
 
@@ -58,7 +58,7 @@ As instituições são classificadas por suas funções:
 - O payload retorna o `consentId`, identificador único do consentimento;
 - Status inicial: **AWAITING_AUTHORISATION** (aguardando autorização do usuário).
 
-> Para detalhes do payload, veja [Recepção de Dados](recepcaoDeDados).
+> Para detalhes do payload, veja [Recepção de Dados](/docs/recepcaodedados).
 
 #### 3. Redirecionamento para Autorização
 
@@ -109,9 +109,9 @@ Após a aprovação, o consentimento pode ser utilizado para:
 
 | Tipo de Consentimento | Finalidade | Página de detalhes |
 | :-------------------: | :--------: | :----------------: |
-| Recepção de Dados | Obtenção de dados cadastrais e transacionais | [Recepção de Dados](recepcaoDeDados) |
-| Iniciação de Pagamento | Criação e execução de pagamentos | [Iniciação de Pagamento](iniciacaoDePagamento) |
-| Pagamento Automático | Criação e gestão de pagamentos recorrentes | [Pagamento Automático](pagamentoAutomatico) |
+| Recepção de Dados | Obtenção de dados cadastrais e transacionais | [Recepção de Dados](/docs/recepcaodedados) |
+| Iniciação de Pagamento | Criação e execução de pagamentos | [Iniciação de Pagamento](/docs/iniciacaodepagamento) |
+| Pagamento Automático | Criação e gestão de pagamentos recorrentes | [Pagamento Automático](/docs/pagamentoautomatico) |
 
 > **Atenção:** Consentimentos de dados e de pagamento são independentes. Um consentimento de leitura de dados **não pode** ser utilizado para criar pagamentos, e vice-versa.
 
@@ -123,7 +123,7 @@ A iniciação do pagamento deve ocorrer **após** a autorização do consentimen
 
 ![Diagrama de sequência](../anexos/imagens/funcionamento-paymentSequenceFinance.png)
 
-Para detalhes técnicos (versões v4 e v5, códigos de erro JWT, exemplos de payload), consulte a documentação específica de [Iniciação de Pagamento](iniciacaoDePagamento) e [Pagamento Automático](pagamentoAutomatico).
+Para detalhes técnicos (versões v4 e v5, códigos de erro JWT, exemplos de payload), consulte a documentação específica de [Iniciação de Pagamento](/docs/iniciacaodepagamento) e [Pagamento Automático](/docs/pagamentoautomatico).
 
 ---
 
@@ -235,7 +235,7 @@ Envia os sinais de risco e os dados da asserção FIDO2 para a Instituição Des
 
 Com o consentimento autorizado, a iniciação do pagamento segue o padrão dos demais fluxos.
 
-> O payload completo de `risk-signals`, regras de divergência de conta de débito e máquina de estados completa estão em [Vínculo de Dispositivo](vinculoDeDispositivo).
+> O payload completo de `risk-signals`, regras de divergência de conta de débito e máquina de estados completa estão em [Vínculo de Dispositivo](/docs/vinculodedispositivo).
 
 ---
 

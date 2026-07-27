@@ -88,8 +88,8 @@ A **Plataforma Opus Open Finance** implementa todas as APIs regulatórias do per
 3. Construir a [camada de integração][Camada-Integração] com os sistemas de retaguarda conforme os produtos financeiros oferecidos pela instituição para seus clientes.
 
 [Limites-operacionais]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17924220/Limites+operacionais
-[JornadaConsentimento]: ../jornadaConsentimento/index.html
+[JornadaConsentimento]: /docs/jornadaconsentimento
 [Portal-Desenvolvedor]: https://openfinancebrasil.atlassian.net/wiki/spaces/DraftOF/calendars
-[Implantação]: ../../opusOpenFinance/implantacaoDaPlataforma/index.html
+[Implantação]: /docs/implantacaodaplataforma
 [GuiaUX]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/1477279745/v.19.00.01+Guia+de+Experi+ncia+do+Usu+rio+Open+Finance+Brasil
-[Camada-Integração]: ../../opusOpenFinance/integracaoDaPlataforma/index.html
+[Camada-Integração]: /docs/integracaodaplataforma

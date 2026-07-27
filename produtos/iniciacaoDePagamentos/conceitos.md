@@ -188,7 +188,7 @@ Em resumo: Enquanto as permissions descrevem quais dados o titular autoriza comp
 
 > **Nota:** Para detalhes técnicos sobre a implementação desses conceitos (endpoints, payloads, e fluxos de fallback), consulte a seção de [Funcionamento][Funcionamento].
 
-[Detentoras]: ../../openFinanceBrasil/perfisParticipacao/detentorDeContas.html
-[Webhooks]: ./funcionamento/webhooks.html
-[Backoffice]: ./funcionamento/backoffice.html
-[Funcionamento]: ./funcionamento/
+[Detentoras]: /docs/detentordecontas
+[Webhooks]: /docs/webhooks
+[Backoffice]: /docs/backoffice
+[Funcionamento]: /docs/funcionamento

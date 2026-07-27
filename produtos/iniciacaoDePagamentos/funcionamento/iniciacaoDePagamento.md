@@ -9,9 +9,9 @@ A API de Iniciação de Transação de Pagamento PIX expõe os endpoints para cr
 
 O Módulo de Iniciação de Pagamentos suporta **simultaneamente as versões regulatórias v4 e v5** das APIs de pagamento, permitindo que a TPP escolha qual versão chamar conforme o que cada Detentora aceita durante o período de convivência.
 
-> **Pré-requisito:** todos os endpoints de iniciação só funcionam após o consentimento de pagamento ter sido criado e estar em `AUTHORISED` (ver [Funcionamento](./)). Para os possíveis valores de cada chave JSON consulte a [API associada][API-Pagamentos].
+> **Pré-requisito:** todos os endpoints de iniciação só funcionam após o consentimento de pagamento ter sido criado e estar em `AUTHORISED` (ver [Funcionamento](/docs/funcionamento)). Para os possíveis valores de cada chave JSON consulte a [API associada][API-Pagamentos].
 
-[API-Pagamentos]: /reference/iniciacao-de-pagamentos
+[API-Pagamentos]: /reference/oofcpaymentspostconsents
 
 ## Endpoints de consentimento de pagamento
 
@@ -60,10 +60,10 @@ A lista completa de códigos está no schema `422ResponseErrorCreatePixPayment` 
 
 - Todas as datas seguem **RFC3339** com formato *zulu*;
 - A máquina de estados completa do pagamento está documentada nas referências oficiais v4 e v5;
-- Para a especificação completa de payload e schemas de resposta, consulte [`oas-pagamentos.yml`](/reference/iniciacao-de-pagamentos) ou a [API associada][API-Pagamentos].
+- Para a especificação completa de payload e schemas de resposta, consulte [`oas-pagamentos.yml`](/reference/oofcpaymentspostconsents) ou a [API associada][API-Pagamentos].
 
 ## Referências
 
 - [SV Pagamentos v4.0.0 — Open Finance Brasil][SV-Pagamentos-v4]
 - [SV Pagamentos v5.0.0-rc.1 — Open Finance Brasil][SV-Pagamentos-v5]
-- [Pagamento Automático (Pix Automático)](pagamentoAutomatico) — para pagamentos recorrentes
+- [Pagamento Automático (Pix Automático)](/docs/pagamentoautomatico) — para pagamentos recorrentes

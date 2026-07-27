@@ -9,7 +9,7 @@ A API de Webhooks de Pagamentos é o canal pelo qual a Instituição Detentora *
 
 > Para os possíveis valores de cada chave JSON consulte a [API associada][API-Webhook].
 
-[API-Webhook]: /reference/webhooks
+[API-Webhook]: /reference/oofcwebhookpostconsentpixpayments
 
 ## Como funciona
 
@@ -50,9 +50,9 @@ Para que o Módulo de Iniciação de Pagamentos saiba para onde reencaminhar as 
 
 > **Atenção:** esta URL **não** deve ser a mesma cadastrada no Diretório de Participantes como Redirect URI. Trata-se de uma URL interna do cliente (geralmente em rede privada), que receberá as notificações encaminhadas pelo Módulo de Iniciação de Pagamentos via POST.
 
-Detalhes da API interna em [APIs Internas](apisInternas).
+Detalhes da API interna em [APIs Internas](/docs/apisinternas).
 
 ## Referências
 
 - [Documentação oficial — Webhook Open Finance Brasil](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/105021457/Webhook)
-- Especificação OpenAPI: [`oas-webhook.yml`](/reference/webhooks) (ver também [API associada][API-Webhook])
+- Especificação OpenAPI: [`oas-webhook.yml`](/reference/oofcwebhookpostconsentpixpayments) (ver também [API associada][API-Webhook])

@@ -47,6 +47,6 @@ Embora sejam similares, as jornadas possuem particularidades devido às suas fin
 | :---------: | :-------: | :------------: |
 | **Tempo do Consentimento** | Definido pelo usuário durante a jornada, variando de 1 a 12 meses ou tempo indeterminado. | Consentimento utilizado uma única vez, consumido imediatamente após o pagamento. |
 | **Valor do Pagamento** | Não se aplica. | Definido pelo ITP e exibido ao usuário durante a confirmação do consentimento. |
-| **Variações no Consentimento** | Depende das informações dos produtos que o usuário deseja compartilhar ([veja os possíveis produtos aqui](../perfisParticipacao/transmissorDeDados)). | Depende do tipo de pagamento selecionado [(confira o roadmap aqui)](../perfisParticipacao/detentorDeConta). |
+| **Variações no Consentimento** | Depende das informações dos produtos que o usuário deseja compartilhar ([veja os possíveis produtos aqui](/docs/transmissordedados)). | Depende do tipo de pagamento selecionado [(confira o roadmap aqui)](/docs/detentordeconta). |
 
 Para mais informações sobre a jornada de experiência do usuário definida pelo regulador, [clique aqui](https://guia-de-ux-open-finance-brasil.scroll.site/guia-de-experi-ncia-open-finance-brasil/v.22.00.01/compartilhamento-de-dados).

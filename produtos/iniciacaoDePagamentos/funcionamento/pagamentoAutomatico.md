@@ -9,7 +9,7 @@ A API de Pagamento Automático permite a criação de **consentimentos recorrent
 
 > Para os possíveis valores de cada chave JSON consulte a [API associada][API-Auto].
 
-[API-Auto]: /reference/pagamentos-automaticos
+[API-Auto]: /reference/automaticpaymentspostrecurringconsents
 
 ## Consentimento recorrente
 
@@ -43,4 +43,4 @@ Referências:
 ## Referências
 
 - [Máquina de Estados v2.0.0 — Pagamentos Automáticos](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/931037243/M+quina+de+Estados+-+v2.1.0+-+SV+Pagamentos+Autom+ticos)
-- Especificação OpenAPI: [`oas-pagamentos-automaticos.yml`](/reference/pagamentos-automaticos) (ver também [API associada][API-Auto])
+- Especificação OpenAPI: [`oas-pagamentos-automaticos.yml`](/reference/automaticpaymentspostrecurringconsents) (ver também [API associada][API-Auto])

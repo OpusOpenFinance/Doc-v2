@@ -11,7 +11,7 @@ O Módulo de Iniciação de Pagamentos implementa o vínculo com **FIDO2/WebAuth
 
 > Para os possíveis valores de cada chave JSON consulte a [API associada][API-SemRedirect].
 
-[API-SemRedirect]: /reference/pagamentos-sem-redirecionamento
+[API-SemRedirect]: /reference/postenrollments
 
 ## Endpoints
 
@@ -78,4 +78,4 @@ Com o vínculo em `AUTHORISED`, para autorizar um consentimento de pagamento:
 
 - [SV Vínculo de Dispositivo v2.2.0 — Open Finance Brasil](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/1436516353/v2.2.0+-+SV+V+nculo+de+dispositivo)
 - [W3C WebAuthn-2 — makeCredentialOptions](https://www.w3.org/TR/webauthn-2/#dictionary-makecredentialoptions)
-- Especificação OpenAPI: [`oas-pagamentos-sem-redirecionamento.yaml`](/reference/pagamentos-sem-redirecionamento) (ver também [API associada][API-SemRedirect])
+- Especificação OpenAPI: [`oas-pagamentos-sem-redirecionamento.yaml`](/reference/postenrollments) (ver também [API associada][API-SemRedirect])

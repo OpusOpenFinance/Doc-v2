@@ -111,7 +111,7 @@ Exemplo — dois apps, `id-app-a` e `id-app-b`, com FQDNs *ooc-appA.instituicao.
 | OF Pagamento | id-app-b | `https://ooc-appB.instituicao.com.br/opus-open-finance/payments/redirect-uri/id-app-b` |
 | OI Dados | id-app-b | `https://ooc-appB.instituicao.com.br/opus-open-insurance/consents/redirect-uri/id-app-b` |
 
-> **Importante:** Todas as URIs de redirecionamento utilizadas pela instituição devem estar registradas no Software Statement do Diretório de Participantes (ver [Configuração](../configuracao/)).
+> **Importante:** Todas as URIs de redirecionamento utilizadas pela instituição devem estar registradas no Software Statement do Diretório de Participantes (ver [Configuração](/docs/configuracao)).
 
 ## Referências
 

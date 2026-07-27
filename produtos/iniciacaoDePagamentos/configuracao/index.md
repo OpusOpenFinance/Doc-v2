@@ -5,7 +5,7 @@ summary: "São dois cadastros:"
 
 ## Etapas de Configuração
 
-> **Importante:** Caso surja alguma dúvida acerca de algum termo utilizado, consulte a página de [**Conceitos**](../conceitos).
+> **Importante:** Caso surja alguma dúvida acerca de algum termo utilizado, consulte a página de [**Conceitos**](/docs/conceitos).
 
 ### 1. Registrar a instituição e o aplicativo no Diretório de Participantes - Responsabilidade Opus
 
@@ -27,7 +27,7 @@ Exemplos comuns:
 - `/opus-open-finance/consents/redirect-uri`
 - `/opus-open-finance/payments/redirect-uri`
 
-Essas URLs devem ser cadastradas no Software Statement de cada aplicação. Quando a instituição tem mais de um app, cada URL precisa carregar um `redirect_identifier` único — ver [Redirecionamento](../funcionamento/redirecionamento).
+Essas URLs devem ser cadastradas no Software Statement de cada aplicação. Quando a instituição tem mais de um app, cada URL precisa carregar um `redirect_identifier` único — ver [Redirecionamento](/docs/redirecionamento).
 
 ### 3. Disponibilizar os ambientes de Homologação e Produção - Responsabilidade Opus
 
@@ -42,7 +42,7 @@ São exigidos pelo Open Finance Brasil:
 - MTLS;
 - Servidor EV.
 
-Para mais detalhes, acesse [Certificados Regulatórios](./certificadosRegulatorios).
+Para mais detalhes, acesse [Certificados Regulatórios](/docs/certificadosregulatorios).
 
 ### 5. Fornecer informações ao time técnico - Responsabilidade da Instituição Cliente
 

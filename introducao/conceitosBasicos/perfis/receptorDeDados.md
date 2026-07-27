@@ -53,7 +53,7 @@ Quando ocorre um compartilhamento, o ecossistema é preparado para fornecer as s
 
 ### Jornada de Consentimento
 
-O processo de autorização para compartilhamento de dados segue uma **jornada completa de consentimento**. Para mais informações, clique [aqui](../jornadaConsentimento/index).
+O processo de autorização para compartilhamento de dados segue uma **jornada completa de consentimento**. Para mais informações, clique [aqui](/docs/jornadaconsentimento).
 
 > Além disso, o [diagrama de sequência][DiagramaSequência] ilustra o fluxo de consentimento de acordo com cada [API oferecida pelo módulo de recepção][API-Recepção].
 
@@ -61,7 +61,7 @@ O processo de autorização para compartilhamento de dados segue uma **jornada c
 
 ### Certificação obrigatória
 
-Para uma instituição se tornar Receptor de Dados, é necessário passar pelos testes da certificação OpenID RP - *Relying parties*. Mais detalhes sobre a certificação podem ser encontrados [aqui](../certificacoesECertificados).
+Para uma instituição se tornar Receptor de Dados, é necessário passar pelos testes da certificação OpenID RP - *Relying parties*. Mais detalhes sobre a certificação podem ser encontrados [aqui](/docs/certificacoesecertificados).
 
 ---
 
@@ -69,7 +69,7 @@ Para uma instituição se tornar Receptor de Dados, é necessário passar pelos 
 
 Para iniciar a utilização do software, existem alguns pré-requisitos:
 
-1. Completar o processo de [setup (implantação)](../../opusOpenFinance/implantacaoDaPlataforma/index).
+1. Completar o processo de [setup (implantação)](/docs/implantacaodaplataforma).
 
 2. Ter completado toda a homologação do perfil de Transmissor de Dados.
 

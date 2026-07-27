@@ -31,7 +31,7 @@ Atualmente, os meios de pagamento previstos no Open Finance incluem:
 
 ### Jornada de Consentimento
 
-O processo de autorização para efetuar pagamentos é feito pelo cliente por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../jornadaConsentimento/index).
+O processo de autorização para efetuar pagamentos é feito pelo cliente por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](/docs/jornadaconsentimento).
 
 ---
 
@@ -69,6 +69,6 @@ O [portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/
 
 Para utilizar a **Plataforma Opus Open Finance** para atender às exigências regulatórias do perfil de participação Detentor de Conta, é necessário concluir as seguintes etapas:
 
-1. Completar o processo de [implantação](../../opusOpenFinance/implantacaoDaPlataforma/index).
+1. Completar o processo de [implantação](/docs/implantacaodaplataforma).
 2. Construir a experiência do usuário para aplicativo e Internet Banking (se houver). [O guia de experiência do usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/1477279745/v.19.00.01+Guia+de+Experi+ncia+do+Usu+rio+Open+Finance+Brasil) apresenta os detalhes do fluxo de interação com  o usuário final que os canais digitais de atendimento devem implementar para atender às normas regulatórias.
 3. Construir a camada de integração com os sistemas de retaguarda de pagamentos.
