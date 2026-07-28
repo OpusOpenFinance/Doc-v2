@@ -23,9 +23,9 @@ Existem *endpoints* para:
 
 A documentação da API de Direitos Creditórios a ser construída na *camada de integração* pode ser encontrada [**aqui**][API-Direitos-Creditórios].
 
-Para fazer o download do arquivo YAML/OAS que contém a especificação da API clique [**aqui**](/reference/invoice-financings).
+Para fazer o download do arquivo YAML/OAS que contém a especificação da API clique [**aqui**](/reference/discoverinvoicefinancings).
 
 
 Alguns navegadores de internet, como *Chrome*, ocasionalmente sinalizam como *não segura* a operação de *download* de arquivos YAML, exigindo o desbloqueio manual pelo usuário. Esses arquivos, entretanto, têm conteúdo do tipo texto e não apresentam risco por si.
 
-[API-Direitos-Creditórios]: /reference/direitos-creditorios
+[API-Direitos-Creditórios]: /reference/discoverinvoicefinancings

@@ -24,9 +24,9 @@ Em linhas gerais, existem *endpoints* para:
 
 A documentação da API de Dados Cadastrais a ser construída na *camada de integração* pode ser encontrada [**aqui**][API-Dados-cadastrais]
 
-Para fazer o download do arquivo YAML/OAS que contém a especificação da API clique [**aqui**](/reference/customers).
+Para fazer o download do arquivo YAML/OAS que contém a especificação da API clique [**aqui**](/reference/customersgetbusinessfinancialrelations).
 
 
 Alguns navegadores de internet, como *Chrome*, ocasionalmente sinalizam como *não segura* a operação de *download* de arquivos YAML, exigindo o desbloqueio manual pelo usuário. Esses arquivos, entretanto, têm conteúdo do tipo texto e não apresentam risco por si.
 
-[API-Dados-cadastrais]: /reference/dados-cadastrais
+[API-Dados-cadastrais]: /reference/customersgetbusinessfinancialrelations

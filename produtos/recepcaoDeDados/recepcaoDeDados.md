@@ -7,9 +7,9 @@ summary: "O Módulo de Recepção de Dados Cadastrais e Transacionais expõe os 
 
 O Módulo de Recepção de Dados Cadastrais e Transacionais expõe os endpoints que permitem à ITP **gerenciar consentimentos** (criar, consultar, revogar e renovar) e **obter os dados consentidos** através de uma camada de proxy aderente ao padrão regulatório do Open Finance Brasil.
 
-> **Pré-requisito:** Os endpoints de utilização só podem ser invocados após o fluxo de autorização descrito no [Funcionamento](./). Para os possíveis valores de cada chave JSON consulte a [API associada][API-OF-Dados].
+> **Pré-requisito:** Os endpoints de utilização só podem ser invocados após o fluxo de autorização descrito no [Funcionamento](/docs/funcionamento). Para os possíveis valores de cada chave JSON consulte a [API associada][API-OF-Dados].
 
-[API-OF-Dados]: /reference/recepcao-de-dados
+[API-OF-Dados]: /reference/get_proxy-open-banking-accounts-v2-accounts
 
 ## Endpoints de consentimento
 
@@ -53,7 +53,7 @@ Após o consentimento estar em `AUTHORISED`, a ITP pode chamar os **proxies regu
 | **Funds** | Fundos de investimento |
 | **Exchanges** | Operações de câmbio |
 
-A especificação completa, incluindo schemas de resposta de cada rota, está em [`oas-dados-of.yml`](/reference/recepcao-de-dados). Para os possíveis valores de cada chave JSON consulte a [API associada][API-OF-Dados].
+A especificação completa, incluindo schemas de resposta de cada rota, está em [`oas-dados-of.yml`](/reference/get_proxy-open-banking-accounts-v2-accounts). Para os possíveis valores de cada chave JSON consulte a [API associada][API-OF-Dados].
 
 ## Header de versão regulatória
 
@@ -82,6 +82,6 @@ A Detentora aplica esta lógica ao receber o `POST /consents`:
 ## Referências
 
 - [Documentação oficial — API Consentimento][API-Consents]
-- Especificação OpenAPI: [`oas-dados-of.yml`](/reference/recepcao-de-dados) (ver também [API associada][API-OF-Dados])
+- Especificação OpenAPI: [`oas-dados-of.yml`](/reference/get_proxy-open-banking-accounts-v2-accounts) (ver também [API associada][API-OF-Dados])
 
 [API-Consents]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17369335/API+-+Consentimento

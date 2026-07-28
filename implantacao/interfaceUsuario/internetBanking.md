@@ -48,4 +48,4 @@ telas customizadas.
 
 ![Diagrama de sequência](./anexos/imagens/internetBanking-diagramaSequencia.svg)
 
-[API-Mobile]: /reference/mobile
+[API-Mobile]: /reference/getauthapp

@@ -46,19 +46,19 @@ O ITP é o perfil que permite à sua instituição iniciar pagamentos em nome de
 
 #### 1. Entendendo o perfil e o ecossistema
 
-- [O que é o perfil ITP e como ele se encaixa no Open Finance](openFinance/openFinanceBrasil/perfisParticipacao/itp/index): Visão geral do papel do ITP e meios de pagamento.
-- [O ecossistema do Open Finance Brasil](openFinance/openFinanceBrasil/ecossistema/index): Como o ecossistema funciona e quais são os perfis participantes.
-- [Jornada de Consentimento para Pagamentos](openFinance/openFinanceBrasil/jornadaConsentimento/index): Como o usuário autoriza um pagamento e como essa jornada se conecta ao papel do ITP.
+- [O que é o perfil ITP e como ele se encaixa no Open Finance](/docs/itp): Visão geral do papel do ITP e meios de pagamento.
+- [O ecossistema do Open Finance Brasil](/docs/ecossistema): Como o ecossistema funciona e quais são os perfis participantes.
+- [Jornada de Consentimento para Pagamentos](/docs/jornadaconsentimento): Como o usuário autoriza um pagamento e como essa jornada se conecta ao papel do ITP.
 
 #### 2. Requisitos regulatórios e certificações
 
-- [Certificações e Certificados](openFinance/openFinanceBrasil/certificacoesECertificados): O ITP precisa da **certificação OpenID RP** (*Relying Parties*) e do **Certificado de Autenticação**. A página detalha o que cada um exige, como obtê-los e quais autoridades certificadoras são homologadas.
+- [Certificações e Certificados](/docs/certificacoesecertificados): O ITP precisa da **certificação OpenID RP** (*Relying Parties*) e do **Certificado de Autenticação**. A página detalha o que cada um exige, como obtê-los e quais autoridades certificadoras são homologadas.
 
 #### 3. Licença própria vs. licença compartilhada
 
 Um ponto decisivo para novos clientes é a escolha entre usar sua própria licença ou utilizar a licença de um fornecedor.
 
-Caso utilize a licença própria, o cliente deve realizar o [Onboarding do ITP](openFinance/openFinanceBrasil/perfisParticipacao/itp/onboardingITP), composto por:
+Caso utilize a licença própria, o cliente deve realizar o [Onboarding do ITP](/docs/onboardingitp), composto por:
 
 - Autorização pelo Banco Central;
 - Etapa pré-homologatória;
@@ -68,22 +68,22 @@ Caso o cliente utilize a licença de um fornecedor, o processo de onboarding nã
 
 #### 4. Tipos de pagamento suportados
 
-- [Iniciação de Pagamento PIX](openFinance/opusOpenFinance/opusTPP/funcionamento/iniciacaoDePagamento):
+- [Iniciação de Pagamento PIX](/docs/iniciacaodepagamento):
   - Pagamento imediato;
   - Pagamento agendado.
-- [Pagamentos Automáticos](openFinance/opusOpenFinance/opusTPP/funcionamento/pagamentoAutomatico): Consentimentos recorrentes para débitos periódicos (assinaturas, mensalidades, parcelas):
+- [Pagamentos Automáticos](/docs/pagamentoautomatico): Consentimentos recorrentes para débitos periódicos (assinaturas, mensalidades, parcelas):
   - PIX automático;
   - Transferências inteligentes.
-- [Vínculo de dispositivo](openFinance/opusOpenFinance/opusTPP/funcionamento/vinculoDeDispositivo): Permissão de vínculo de dispositivo para a realização de jornadas simplificadas:
+- [Vínculo de dispositivo](/docs/vinculodedispositivo): Permissão de vínculo de dispositivo para a realização de jornadas simplificadas:
   - JSR - Jornada sem redirecionamento: Modalidade de pagamento em que o usuário autoriza a transação diretamente no aplicativo do ITP, sem ser redirecionado para o ambiente da Detentora de Conta;
   - PIX por aproximação: Modalidade de pagamento em que a transação Pix é iniciada por meio de NFC, permitindo que o usuário efetue pagamentos aproximando o celular de uma maquininha ou terminal, sem precisar abrir o aplicativo ou escanear um QR Code.
-- [Cenários de pagamento](openFinance/opusOpenFinance/integracaoDaPlataforma/pagamentos/cenariosPagamentos) — casos de uso práticos e combinações de tipos de pagamento.
+- [Cenários de pagamento](/docs/cenariospagamentos) — casos de uso práticos e combinações de tipos de pagamento.
 
 #### 5. Fluxos técnicos e redirecionamento
 
-- [Funcionamento geral da Iniciação de Pagamentos e Recepção de Dados](openFinance/opusOpenFinance/opusTPP/funcionamento/index): Visão dos fluxos de negócio: listagem de participantes, criação de consentimento, redirecionamento e consulta de status;
-- [Redirecionamento App-to-App e Web](openFinance/opusOpenFinance/opusTPP/funcionamento/redirecionamento): Como o usuário é enviado à Detentora de Conta para autorizar o pagamento e retorna ao ambiente do ITP;
-- [Webhooks de pagamentos](openFinance/opusOpenFinance/opusTPP/funcionamento/webhooks): Como receber notificações assíncronas sobre mudanças de status dos pagamentos.
+- [Funcionamento geral da Iniciação de Pagamentos e Recepção de Dados](/docs/funcionamento): Visão dos fluxos de negócio: listagem de participantes, criação de consentimento, redirecionamento e consulta de status;
+- [Redirecionamento App-to-App e Web](/docs/redirecionamento): Como o usuário é enviado à Detentora de Conta para autorizar o pagamento e retorna ao ambiente do ITP;
+- [Webhooks de pagamentos](/docs/webhooks): Como receber notificações assíncronas sobre mudanças de status dos pagamentos.
 
 ---
 
@@ -93,24 +93,24 @@ O Receptor de Dados é o perfil que permite à sua instituição obter dados fin
 
 #### 1. Entendendo o perfil e os dados disponíveis
 
-- [O que é o perfil Receptor de Dados](openFinance/openFinanceBrasil/perfisParticipacao/receptorDeDados): Visão geral do papel do Receptor, os dados que podem ser compartilhados (cadastrais, conta corrente, cartão, crédito, câmbio e investimentos) e os pré-requisitos de utilização;
-- [O ecossistema do Open Finance Brasil](openFinance/openFinanceBrasil/ecossistema/index): Como Receptor e Transmissor se complementam dentro do ecossistema;
-- [Jornada de Consentimento para Compartilhamento de Dados](openFinance/openFinanceBrasil/jornadaConsentimento/index): Como o usuário autoriza o compartilhamento e as diferenças em relação à jornada de pagamento (prazo do consentimento, escopos, renovação).
+- [O que é o perfil Receptor de Dados](/docs/receptordedados): Visão geral do papel do Receptor, os dados que podem ser compartilhados (cadastrais, conta corrente, cartão, crédito, câmbio e investimentos) e os pré-requisitos de utilização;
+- [O ecossistema do Open Finance Brasil](/docs/ecossistema): Como Receptor e Transmissor se complementam dentro do ecossistema;
+- [Jornada de Consentimento para Compartilhamento de Dados](/docs/jornadaconsentimento): Como o usuário autoriza o compartilhamento e as diferenças em relação à jornada de pagamento (prazo do consentimento, escopos, renovação).
 
 #### 2. Requisitos regulatórios e certificações
 
-- [Certificações e Certificados](openFinance/openFinanceBrasil/certificacoesECertificados): Assim como o ITP, o Receptor precisa da **certificação OpenID RP** (*Relying Parties*) e do **Certificado de Autenticação**. A tabela de necessidade de certificados por perfil ajuda a identificar exatamente o que contratar.
+- [Certificações e Certificados](/docs/certificacoesecertificados): Assim como o ITP, o Receptor precisa da **certificação OpenID RP** (*Relying Parties*) e do **Certificado de Autenticação**. A tabela de necessidade de certificados por perfil ajuda a identificar exatamente o que contratar.
 
 #### 3. Dados disponíveis para recepção
 
-- [Recepção de Dados — funcionamento e endpoints](openFinance/opusOpenFinance/opusTPP/funcionamento/recepcaoDeDados): Endpoints de consentimento (criação, consulta, revogação, renovação) e os aproximadamente 78 proxies regulatórios organizados por família: clientes, contas, cartão de crédito, operações de crédito, câmbio e investimentos;
-- [Compartilhamento de Dados — visão de integração](openFinance/opusOpenFinance/integracaoDaPlataforma/compartilhamentoDeDados/index): Como os dados recebidos se organizam, por produto financeiro;
-- [Consentimento Compartilhado — Recepção de Dados](openFinance/opusOpenFinance/consentimentoCompartilhado/recepcaoDeDados): Gestão do ciclo de vida dos consentimentos de dados na perspectiva do produto.
+- [Recepção de Dados — funcionamento e endpoints](/docs/recepcaodedados): Endpoints de consentimento (criação, consulta, revogação, renovação) e os aproximadamente 78 proxies regulatórios organizados por família: clientes, contas, cartão de crédito, operações de crédito, câmbio e investimentos;
+- [Compartilhamento de Dados — visão de integração](/docs/compartilhamentodedados): Como os dados recebidos se organizam, por produto financeiro;
+- [Consentimento Compartilhado — Recepção de Dados](/docs/recepcaodedados): Gestão do ciclo de vida dos consentimentos de dados na perspectiva do produto.
 
 #### 4. Fluxos técnicos e redirecionamento
 
-- [Funcionamento geral da Iniciação de Pagamentos e Recepção de Dados](openFinance/opusOpenFinance/opusTPP/funcionamento/index): Fluxos de consentimento de dados seguem a mesma lógica geral do ITP (listagem de participantes → criação → redirecionamento → consulta), com diferenças nos escopos e na vigência;
-- [Redirecionamento App-to-App e Web](openFinance/opusOpenFinance/opusTPP/funcionamento/redirecionamento): Como o usuário é enviado à Transmissora para autorizar o compartilhamento e retorna ao ambiente do Receptor.
+- [Funcionamento geral da Iniciação de Pagamentos e Recepção de Dados](/docs/funcionamento): Fluxos de consentimento de dados seguem a mesma lógica geral do ITP (listagem de participantes → criação → redirecionamento → consulta), com diferenças nos escopos e na vigência;
+- [Redirecionamento App-to-App e Web](/docs/redirecionamento): Como o usuário é enviado à Transmissora para autorizar o compartilhamento e retorna ao ambiente do Receptor.
 
 ---
 

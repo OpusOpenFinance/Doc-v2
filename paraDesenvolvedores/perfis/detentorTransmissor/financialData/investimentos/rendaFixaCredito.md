@@ -19,9 +19,9 @@ Em linhas gerais, existem *endpoints* para:
 
 A documentação da API de renda fixa de crédito a ser construída na *camada de integração* pode ser encontrada [**aqui**][API-Renda-Fixa-Credito].
 
-Para fazer o download do arquivo YAML/OAS que contém a especificação da API clique [**aqui**](/reference/credit-fixed-incomes).
+Para fazer o download do arquivo YAML/OAS que contém a especificação da API clique [**aqui**](/reference/discovercreditfixedincomes).
 
 
 Alguns navegadores de internet, como *Chrome*, ocasionalmente sinalizam como *não segura* a operação de *download* de arquivos YAML, exigindo o desbloqueio manual pelo usuário. Esses arquivos, entretanto, têm conteúdo do tipo texto e não apresentam risco por si.
 
-[API-Renda-Fixa-Credito]: /reference/renda-fixa-credito
+[API-Renda-Fixa-Credito]: /reference/discovercreditfixedincomes

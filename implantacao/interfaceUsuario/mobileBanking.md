@@ -67,4 +67,4 @@ Vários cenários estão mockados e são acionados através das respectivas URLs
 
 Para executar o mock basta importar o JSON na ferramenta *Mockoon* e iniciar o servidor do *environment* "Opus Open Finance Authorization Server Apps API".
 
-[API-Mobile]: /reference/mobile
+[API-Mobile]: /reference/getauthapp

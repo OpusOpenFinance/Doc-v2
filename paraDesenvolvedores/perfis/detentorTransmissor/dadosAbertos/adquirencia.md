@@ -11,4 +11,4 @@ Clique [**aqui**](./anexos/json/openData-acquiringServices.json) para fazer o do
 
 Para os possíveis valores de cada chave JSON consulte a [API associada][Link-API].
 
-[Link-API]: /reference/open-data-acquiring
+[Link-API]: /reference/getbusinessacquiringservices

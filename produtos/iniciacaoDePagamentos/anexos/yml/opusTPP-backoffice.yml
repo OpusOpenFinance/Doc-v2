@@ -105,7 +105,12 @@ paths:
         Retorna uma lista de pagamentos associados a um consentimento específico.
         Suporta paginação e ordenação.
       parameters:
-        - $ref: '#/components/parameters/consentId'
+        - name: consentId
+          in: path
+          required: true
+          description: Identificador único do consentimento.
+          schema:
+            $ref: '#/components/schemas/UUID'
       responses:
         '200':
           description: Lista de pagamentos retornada com sucesso

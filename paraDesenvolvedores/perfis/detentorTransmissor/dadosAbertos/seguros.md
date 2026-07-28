@@ -11,4 +11,4 @@ Clique [**aqui**](./anexos/json/openData-insurance.json) para fazer o download d
 
 Para os possíveis valores de cada chave JSON consulte a [API associada][Link-API].
 
-[Link-API]: /reference/open-data-insurance
+[Link-API]: /reference/getpersonalinsurance
