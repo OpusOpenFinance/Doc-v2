@@ -73,6 +73,6 @@ Lista todos os pagamentos associados a um consentimento.
 
 ## Referências
 
-- Especificação OpenAPI: [`backoffice.yml`](/reference/backoffice) (ver também [API associada][API-Backoffice])
+- Especificação OpenAPI: [`backoffice.yml`](/reference/getbackofficeconsents) (ver também [API associada][API-Backoffice])
 
-[API-Backoffice]: /reference/otpp-backoffice
+[API-Backoffice]: /reference/getbackofficeconsents
