@@ -13,14 +13,13 @@ Tanto para a etapa de _criação de consentimento de pagamento_ quanto para a de
 
 Embora a regulação do _Open Finance Brasil_ preveja diversos meios de pagamento no futuro, atualmente apenas o **Pix** é suportado.
 
-
 A _criação de consentimento de pagamento_ normalmente envolve a interação com dois tipos de sistemas da instituição financeira: sistemas de retaguarda, como conta corrente e o módulo de pagamentos _Pix_, e sistemas de canais digitais de atendimento, como _mobile banking_ e _internet banking_. A _camada de integração de pagamentos_ lida exclusivamente com os sistemas de retaguarda. Os aspectos referentes à integração com canais digitais de atendimento, tipicamente para obter a autorização do cliente através de autenticação, está descrita na seção de integração [_App e Web_][App-e-Web] desta documentação.
 
 ### Camada de Integração de Pagamentos
 
 A imagem abaixo esquematiza a interação da **Plataforma Opus Open Finance** com a _camada de integração de pagamentos_ através da _API REST_.
 
-![Camada-Integração][Imagem-Camada-Integração]
+![Camada-Integração](./anexos/imagens/representacaoCamadaDeIntegracao.png)
 
 A _camada de integração de pagamento_ deve implementar uma _API REST_ que disponibiliza cinco diferentes operações, duas que serão chamadas durante a etapa de _criação do consentimento de pagamento_ e três que serão chamadas durante a etapa de _liquidação do pagamento_:
 
@@ -76,7 +75,6 @@ Ao realizar um _Pix_ pelo Open Finance, a integração deve tratar adequadamente
 - **Solicitação Original:** A primeira tentativa de execução do pagamento, que acontece para todos os pagamentos.
 - **Retentativa Extra-dia:** Apenas suportada para pagamentos específicos (ex.: _Pix Automático_). É uma nova tentativa realizada em um dia diferente da tentativa original.
 
-
 ⚠️ A retentativa intra-dia (realizada no mesmo dia), quando aplicável, deve ser identificada e tratada pelo sistema de retaguarda da instituição financeira.
 
 ---
@@ -93,7 +91,6 @@ A análise de campos abaixo é feita para o payload da requisição de criação
 | :----------------------------------------------------------: | :-----------: |
 | Ausente                                                      | Usuário PF    |
 | Preenchido                                                   | Usuário PJ    |
-
 
 ℹ️ Independentemente do tipo de usuário, seu CPF estará disponível no campo `consent.loggedUser.document.identification`.
 
@@ -131,10 +128,8 @@ A tabela abaixo resume os campos para a identificação cada cenário:
 |        QRES        | `proxy` + `creditorAccount` + `qrCode` (String com o QR Code lido) |
 |        QRDN        | `proxy` + `creditorAccount` + `qrCode`                             |
 
-
 ⚠️ Quando houver mais de uma forma de identificação, deve-se validar a consistência entre elas.
 Exemplo: a chave _Pix_ deve se referir à mesma conta indicada no campo creditorAccount.
-
 
 ℹ️ Todos os campos mencionados na tabela acima estão localizados dentro de `requestBody.data`.
 
@@ -260,7 +255,7 @@ Por exemplo, ao receber uma requisição de agendamento recorrente por 5 meses, 
 A data de cada agendamento deve ser determinada conforme descrito em [como identificar a data do pagamento][Cenarios-Pagamentos].
 
 [App-e-Web]: ../appEWeb/index.html
-[Imagem-Camada-Integração]: ./anexos/imagens/representacaoCamadaDeIntegracao.png
+
 [API-pagamento]: /reference/post_account-discovery
 [API-pagamentoV5]: /reference/post_account-discovery
 [Cenarios-Pagamentos]: ./cenariosPagamentos.html
