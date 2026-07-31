@@ -1,6 +1,5 @@
 ---
 title: "Exemplo Empréstimos"
-slug: "od-emprestimos"
 summary: "Este é um exemplo de arquivo JSON de resposta da API OpenData Loans."
 ---
 

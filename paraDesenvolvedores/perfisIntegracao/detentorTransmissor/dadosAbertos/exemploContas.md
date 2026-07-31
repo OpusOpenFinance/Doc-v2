@@ -1,6 +1,5 @@
 ---
 title: "Exemplo Contas"
-slug: "od-contas"
 summary: "Este é um exemplo de arquivo JSON de resposta da API OpenData Accounts."
 ---
 

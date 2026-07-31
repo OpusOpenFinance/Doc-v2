@@ -1,6 +1,5 @@
 ---
 title: "Perfis de Participação"
-slug: "perfis-para-desenvolvedores"
 hidden: false
 ---
 
