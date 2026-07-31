@@ -1,5 +1,6 @@
 ---
 title: "Dados Abertos"
+slug: "dados-abertos-exemplos"
 summary: "O perfil de dados abertos corresponde aos dados públicos que as instituições participantes do Open Finance devem divulgar ao ecossistema. Para saber mais inf..."
 ---
 

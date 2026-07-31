@@ -1,5 +1,6 @@
 ---
 title: "Recepção de Dados"
+slug: "receptor-recepcao-de-dados"
 summary: "Nossa solução de consentimento compartilhado foi desenvolvida para facilitar a adesão ao Open Finance Brasil, atendendo às exigências regulatórias de forma e..."
 ---
 

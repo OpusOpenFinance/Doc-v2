@@ -1,5 +1,6 @@
 ---
 title: "Certificados Regulatórios"
+slug: "certificados-regulatorios-implantacao"
 summary: "Detalhar os certificados regulatórios exigidos para a operação no Open Finance Brasil e suas finalidades."
 ---
 

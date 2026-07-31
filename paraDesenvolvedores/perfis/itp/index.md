@@ -1,5 +1,6 @@
 ---
 title: "Iniciador de Transação de Pagamento (ITP)"
+slug: "perfil-itp"
 summary: "O Iniciador de Transação de Pagamento (ITP) é o perfil do Open Finance Brasil autorizado a realizar iniciações de pagamento no ecossistema. O ITP conduz jorn..."
 ---
 

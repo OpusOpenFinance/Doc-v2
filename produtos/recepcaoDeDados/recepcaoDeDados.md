@@ -1,5 +1,6 @@
 ---
 title: "Recepção de Dados — fluxo"
+slug: "recepcao-de-dados-fluxo"
 summary: "O Módulo de Recepção de Dados Cadastrais e Transacionais expõe os endpoints que permitem à ITP gerenciar consentimentos (criar, consultar, revogar e renovar)..."
 ---
 

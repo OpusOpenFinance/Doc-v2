@@ -1,5 +1,6 @@
 ---
 title: "Exemplo Investimentos"
+slug: "od-investimentos"
 summary: "Este é um exemplo de arquivo JSON de resposta da API OpenData Investments."
 ---
 

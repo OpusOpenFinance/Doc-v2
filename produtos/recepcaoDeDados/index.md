@@ -12,7 +12,7 @@ Produto da Plataforma Opus Open Finance para instituições que atuam como **Rec
 
 ## Nesta seção
 
-- [Recepção de Dados — fluxo](/docs/recepcaodedados) — como solicitar consentimento e consumir os dados.
+- [Recepção de Dados — fluxo](/docs/recepcao-de-dados-fluxo) — como solicitar consentimento e consumir os dados.
 
 ## APIs (API Reference)
 
