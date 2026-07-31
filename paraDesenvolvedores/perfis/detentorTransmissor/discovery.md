@@ -124,7 +124,7 @@ Um consentimento de compartilhamento com as todas as permissões realizará o
 discovery dos produtos ACCOUNT e CREDIT_CARD durante a etapa de confirmação do
 consentimento e dos produtos INVOICE_FINANCING, FINANCING, LOAN e
 UNARRANGED_ACCOUNT_OVERDRAFT quando ocorrer uma chamada no
-```GET /resources/v1/resources```. O discovery é sempre efetuado de forma
+`GET /resources/v1/resources`. O discovery é sempre efetuado de forma
 paralela para minimizar o tempo de resposta das APIs.
 
 ### Tratamento dos identificadores
