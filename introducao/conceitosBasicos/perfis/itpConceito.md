@@ -58,7 +58,7 @@ Para utilizar a **Plataforma Opus Open Finance** no perfil de ITP, é necessári
 
 [GuiaUX]: https://guia-de-ux-open-finance-brasil.scroll.site/guia-de-experi-ncia-open-finance-brasil/v.22.00.01
 [Portal-Dev]: https://openfinancebrasil.atlassian.net/wiki/spaces/DraftOF/calendars
-[OnboardingITP]: /docs/onboardingitp
+[OnboardingITP]: /docs/onboarding
 [Setup]: /docs/implantacaodaplataforma
 [Jornada-Consentimento]: /docs/jornadaconsentimento
 [Diagrama-Sequência]: ./anexos/imagens/itp-consentSequence.png

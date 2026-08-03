@@ -92,4 +92,4 @@ A **Plataforma Opus Open Finance** implementa todas as APIs regulatórias do per
 [Portal-Desenvolvedor]: https://openfinancebrasil.atlassian.net/wiki/spaces/DraftOF/calendars
 [Implantação]: /docs/implantacaodaplataforma
 [GuiaUX]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/1477279745/v.19.00.01+Guia+de+Experi+ncia+do+Usu+rio+Open+Finance+Brasil
-[Camada-Integração]: /docs/integracaodaplataforma
+[Camada-Integração]: /docs/camadaintegracao

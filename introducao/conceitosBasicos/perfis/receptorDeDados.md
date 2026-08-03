@@ -61,7 +61,7 @@ O processo de autorização para compartilhamento de dados segue uma **jornada c
 
 ### Certificação obrigatória
 
-Para uma instituição se tornar Receptor de Dados, é necessário passar pelos testes da certificação OpenID RP - *Relying parties*. Mais detalhes sobre a certificação podem ser encontrados [aqui](/docs/certificacoesecertificados).
+Para uma instituição se tornar Receptor de Dados, é necessário passar pelos testes da certificação OpenID RP - *Relying parties*. Mais detalhes sobre a certificação podem ser encontrados [aqui](/docs/certificados).
 
 ---
 
