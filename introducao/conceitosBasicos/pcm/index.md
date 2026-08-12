@@ -18,7 +18,7 @@ Ambas as instituições envolvidas em qualquer operação devem enviar essas inf
 
 ---
 
-## Solução Opus Open Finance
+## Solução da Plataforma Opus Open Finance
 
 A Plataforma Opus Open Finance possui um módulo que roda como um serviço independente que gerencia todo o processo de coleta e envio das chamadas para a PCM, garantindo conformidade regulatória sem que você precise se preocupar.
 

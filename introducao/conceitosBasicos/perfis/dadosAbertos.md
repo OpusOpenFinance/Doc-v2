@@ -5,7 +5,7 @@ summary: "A frente de dados abertos do Open Finance faz referência à fase 1 do
 
 ## Dados abertos
 
-A frente de dados abertos do Open Finance faz referência à [fase 1 do Open Finance](/docs/ecossistema). A Fase 1 possibilita que as instituições participantes do Open Finance publiquem seus dados de forma pública e acessível via API, para que qualquer requisição possa recuperar essas informações. Os dados são referentes a informações não sensíveis das próprias instituições.
+A frente de dados abertos do Open Finance faz referência à [fase 1 do Open Finance](/docs/ecossistema). A Fase 1 possibilita que as Instituições participantes do Open Finance publiquem seus dados referentes a informações não sensíveis de forma acessível via API, para que qualquer requisição possa recuperar essas informações.
 
 ### Dados listados
 
@@ -32,8 +32,10 @@ A frente de dados abertos do Open Finance faz referência à [fase 1 do Open Fin
 - Seguros;
 - Previdência.
 
-> - No caso dos produtos financeiros, todos devem ser separados entre pessoa natural e jurídica.  
-> - Todos os valores monetários ou de taxas representados dentro das estruturas abaixo são separados em diferentes faixas. Ao todo, são 4 faixas de igual proporção que dividem o intervalo do menor até o maior valor. Há um valor correspondente para cada faixa, o qual é o valor da mediana de cada uma dessas faixas. Acompanhado a cada faixa, tem-se o percentual de clientes em cada uma dessas faixas (para o serviço x, 10% dos clientes daquele serviço estão na faixa 1, 15% na faixa 2, 20% na faixa 3 e 55% na faixa 4).
+Observações:
+
+- No caso dos produtos financeiros, todos devem ser separados entre pessoa natural e jurídica;
+- Todos os valores monetários ou de taxas representados dentro das estruturas abaixo são separados em diferentes faixas. Ao todo, são 4 faixas de igual proporção que dividem o intervalo do menor até o maior valor. Há um valor correspondente para cada faixa, o qual é o valor da mediana de cada uma dessas faixas. Acompanhado a cada faixa, tem-se o percentual de clientes em cada uma dessas faixas (para o serviço x, 10% dos clientes daquele serviço estão na faixa 1, 15% na faixa 2, 20% na faixa 3 e 55% na faixa 4).
 
 ### Critério de obrigatoriedade
 
@@ -41,12 +43,11 @@ O perfil de dados abertos é obrigatório a todas as instituições que são par
 
 ### Plataforma Opus Open Finance
 
-A **Plataforma Opus Open Finance** implementa a API de dados abertos e basta uma integração (muito simples) para que a fase 1 esteja operacional, além das seguintes etapas:
+A **Plataforma Opus Open Finance** implementa a API de dados abertos e basta uma integração para que a fase 1 esteja operacional, além das seguintes etapas:
 
-1. Ter concluído a [implantação do produto][Implantação].
+1. Ter concluído a [implantação do produto][Implantação];
+2. Realizar a integração concomitante à integração do Transmissor de Dados.
 
-2. Realizar a integração concomitante à integração do Transmissor de Dados. (ideal é que ambos os perfis entrem em produção ao mesmo tempo)
-
-> A integração é realizada por meio de uma estrutura em formato JSON gerada dinâmica ou estaticamente para reportar os dados ao ecossistema do *Open Finance Brasil*.
+> A integração é realizada por meio de uma estrutura em formato JSON gerada dinâmica ou estaticamente para reportar os dados ao ecossistema do Open Finance Brasil.
 
 [Implantação]: /docs/implantacaodaplataforma

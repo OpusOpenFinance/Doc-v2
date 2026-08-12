@@ -57,13 +57,13 @@ Atua como elo principal com o Conselho Deliberativo, informando sobre o andament
 
 São responsáveis por estudos, propostas técnicas e planos voltados para a implementação e gestão do Open Finance. Incluem profissionais de empresas de tecnologia e acadêmicos. Atualmente, existem oito GTs:
 
-1. **GT Especificações**: Define escopo de dados e interfaces para produtos e serviços.
-2. **GT Experiência do Cliente**: Desenvolve o [Guia de Experiência do Usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/1477279745/v.19.00.01+Guia+de+Experi+ncia+do+Usu+rio+Open+Finance+Brasil).
-3. **GT Infraestrutura**: Gestão de plataformas e ferramentas do ecossistema.
-4. **GT Política, Riscos e Compliance**: Análises regulatórias e de conformidade.
-5. **GT Estrutura Definitiva**: Define natureza jurídica e função da estrutura.
-6. **GT Segurança**: Define padrões e protocolos de autenticação e autorização.
-7. **GT Comunicação**: Gerencia informações e conteúdos informativos.
+1. **GT Especificações**: Define escopo de dados e interfaces para produtos e serviços;
+2. **GT Experiência do Cliente**: Desenvolve o [Guia de Experiência do Usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/1477279745/v.19.00.01+Guia+de+Experi+ncia+do+Usu+rio+Open+Finance+Brasil);
+3. **GT Infraestrutura**: Gestão de plataformas e ferramentas do ecossistema;
+4. **GT Política, Riscos e Compliance**: Análises regulatórias e de conformidade;
+5. **GT Estrutura Definitiva**: Define natureza jurídica e função da estrutura;
+6. **GT Segurança**: Define padrões e protocolos de autenticação e autorização;
+7. **GT Comunicação**: Gerencia informações e conteúdos informativos;
 8. **GT Arquitetura**: Garante integração entre os GTs e estratégias de continuidade.
 
 Há também 6 GTs internos para suporte adicional às demandas recebidas.
