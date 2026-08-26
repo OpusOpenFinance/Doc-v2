@@ -9,8 +9,6 @@ O Open Finance Brasil carrega um peso significativo na transformação do sistem
 
 Para saber mais, [acesse o site](https://openfinancebrasil.org.br/conheca-o-open-finance/) e assista aos vídeos disponibilizados.
 
----
-
 ### Escopo do Open Finance
 
 O Open Finance tem um escopo de implementação em 4 diferentes fases, conhecidas como:
@@ -25,8 +23,6 @@ Cada fase é descrita em detalhes na imagem abaixo:
 ![Escopo Open Finance](./anexos/imagens/ecossistema-escopo.png)
 [Fonte: Banco Central](https://openfinancebrasil.org.br/conheca-o-open-finance/)
 
----
-
 ### Estrutura do Open Finance
 
 Para garantir a implementação do Open Finance, o Banco Central definiu uma estrutura para concretizar os objetivos do ecossistema. A estrutura está dividida da seguinte forma:
@@ -39,19 +35,13 @@ Para garantir a implementação do Open Finance, o Banco Central definiu uma est
 
 [Consulte o repositório de normativos do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/buscanormas).
 
----
-
 #### Conselho Deliberativo
 
 Decide as questões estratégicas necessárias para a implementação do projeto no Brasil e propõe os padrões técnicos ao [Banco Central](https://www.bcb.gov.br/).
 
----
-
 #### Secretariado
 
 Atua como elo principal com o Conselho Deliberativo, informando sobre o andamento do projeto por meio de relatórios, acompanhamento de cronogramas técnicos e regulatórios, gestão de fornecedores e organização dos grupos de trabalho (GTs).
-
----
 
 #### Grupos de Trabalho (GTs)
 
@@ -68,13 +58,9 @@ São responsáveis por estudos, propostas técnicas e planos voltados para a imp
 
 Há também 6 GTs internos para suporte adicional às demandas recebidas.
 
----
-
 #### Instituições Participantes
 
 As instituições participantes devem acompanhar o andamento do ecossistema para garantir conformidade com os requisitos regulatórios. É essencial monitorar os principais canais de informação.
-
----
 
 ### Links Relevantes para o Regulatório
 

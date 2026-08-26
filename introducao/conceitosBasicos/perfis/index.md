@@ -5,7 +5,7 @@ summary: "As instituições financeiras podem participar do Open Finance Brasil 
 
 ## Perfis de Participação
 
-As Instituições financeiras podem participar do *Open Finance Brasil* cumprindo vários papéis específicos, aqui denominados Perfis de Participação. Algumas Instituições financeiras são obrigadas a participar com determinados perfis, mas todas as Instituições podem, voluntariamente, exercer todos os perfis existentes.
+As Instituições financeiras podem participar do Open Finance Brasil cumprindo vários papéis específicos, aqui denominados Perfis de Participação. Algumas Instituições financeiras são obrigadas a participar com determinados perfis, mas todas as Instituições podem, voluntariamente, exercer todos os perfis existentes.
 
 ![Perfis do Open Finance](./anexos/imagens/index-perfis.png)
 
@@ -13,35 +13,13 @@ Os perfis exercidos pelas Instituições financeiras podem ser divididos nos doi
 
 ### No ecossistema de Dados
 
-- **Transmissora de Dados** - Parte passiva.
-- **Receptora de Dados** - Parte ativa.
+- Transmissora de Dados - Parte passiva.
+- Receptora de Dados - Parte ativa.
 
 ### No ecossistema de Pagamentos
 
-- **Detentora de Conta** - Parte passiva.
-- **Iniciadora de Transação de Pagamento (ITP)** - Parte ativa.
-
----
-
-### Nomenclatura TPP
-
-O termo **TPP** (Third-Party Provider) é utilizado para representar ambas as partes ativas do ecossistema, ou seja:
-
-- **Receptor de Dados**
-- **ITP**
-
----
-
-### Perfis de Participação no Open Finance Brasil
-
-Os perfis de atuação podem ser entendidos conforme a tabela abaixo:
-
-| **Ecossistema** | **Client (TPP - parte ativa)** | **Server (parte passiva)**  |
-| :-------------: | :----------------------------: | :-------------------------: |
-| **Dados**       | Receptor de Dados              | Transmissor de Dados        |
-| **Pagamentos**  | ITP                            | Detentor de Conta           |
-
----
+- Detentora de Conta - Parte passiva.
+- Iniciadora de Transação de Pagamento (ITP) - Parte ativa.
 
 ### Plataforma Opus Open Finance
 

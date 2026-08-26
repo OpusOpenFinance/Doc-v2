@@ -9,16 +9,14 @@ A **Plataforma de Coleta de Métricas (PCM)** é um requisito regulatório obrig
 
 ### Informações que devem ser enviadas
 
-- **Endpoint acessado**;
-- **Data e hora do evento**;
-- **Resultado recebido**;
-- **Tempo de resposta**.
+- Endpoint acessado;
+- Data e hora do evento;
+- Resultado recebido;
+- Tempo de resposta.
 
 Ambas as instituições envolvidas em qualquer operação devem enviar essas informações para a PCM.
 
----
-
-## Solução Opus Open Finance
+## Plataforma Opus Open Finance
 
 A Plataforma Opus Open Finance possui um módulo que roda como um serviço independente que gerencia todo o processo de coleta e envio das chamadas para a PCM, garantindo conformidade regulatória sem que você precise se preocupar.
 
