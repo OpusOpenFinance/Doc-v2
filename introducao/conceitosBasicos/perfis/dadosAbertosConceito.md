@@ -5,13 +5,13 @@ summary: "A frente de dados abertos do Open Finance faz referência à fase 1 do
 
 ## Dados abertos
 
-A frente de dados abertos do Open Finance faz referência à [fase 1 do Open Finance](/docs/ecossistema). A Fase 1 possibilita que as instituições participantes do Open Finance publiquem seus dados de forma pública e acessível via API, para que qualquer requisição possa recuperar essas informações. Os dados são referentes a informações não sensíveis das próprias instituições.
+A frente de dados abertos do Open Finance faz referência à [fase 1 do Open Finance](/docs/ecossistema). A Fase 1 possibilita que as Instituições participantes do Open Finance publiquem seus dados de forma pública e acessível via API, para que qualquer requisição possa recuperar essas informações. Os dados são referentes a informações não sensíveis das próprias Instituições.
 
 ### Dados listados
 
 #### Canais de atendimento
 
-- Dependências próprias, incluindo a lista de agências bancárias mantidas pela instituição;
+- Dependências próprias, incluindo a lista de agências bancárias mantidas pela Instituição;
 - Canais de atendimento eletrônico;
 - Canais de atendimento telefônico;
 - Correspondentes bancários da instituição;

@@ -50,7 +50,7 @@ Para que o Módulo de Iniciação de Pagamentos saiba para onde reencaminhar as 
 
 > **Atenção:** esta URL **não** deve ser a mesma cadastrada no Diretório de Participantes como Redirect URI. Trata-se de uma URL interna do cliente (geralmente em rede privada), que receberá as notificações encaminhadas pelo Módulo de Iniciação de Pagamentos via POST.
 
-Detalhes da API interna em [APIs Internas](/docs/apisinternas).
+Detalhes da API interna em APIs Internas.
 
 ## Referências
 

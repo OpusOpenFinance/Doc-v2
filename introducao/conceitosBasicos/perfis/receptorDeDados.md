@@ -5,7 +5,7 @@ summary: "O Receptor de Dados corresponde a um perfil do Open Finance que tem au
 
 ## Receptor de Dados
 
-O Receptor de Dados corresponde a um perfil do Open Finance que tem autoridade para requisitar dados de outras instituições que são Transmissoras de Dados. Conforme a regulação do Open Finance, existem diversos produtos listados pelas Transmissoras que podem ser recolhidos pela Receptora.
+O Receptor de Dados corresponde a um perfil do Open Finance que tem autoridade para requisitar dados de outras Instituições que são Transmissoras de Dados. Conforme a regulação do Open Finance, existem diversos produtos listados pelas Transmissoras que podem ser recolhidos pela Receptora.
 
 ---
 
@@ -61,7 +61,7 @@ O processo de autorização para compartilhamento de dados segue uma **jornada c
 
 ### Certificação obrigatória
 
-Para uma instituição se tornar Receptor de Dados, é necessário passar pelos testes da certificação OpenID RP - *Relying parties*. Mais detalhes sobre a certificação podem ser encontrados [aqui](/docs/certificacoesecertificados).
+Para uma instituição se tornar Receptor de Dados, é necessário passar pelos testes da certificação OpenID RP - *Relying parties*. Mais detalhes sobre a certificação podem ser encontrados [aqui](/docs/certificados).
 
 ---
 
@@ -73,11 +73,11 @@ Para iniciar a utilização do software, existem alguns pré-requisitos:
 
 2. Ter completado toda a homologação do perfil de Transmissor de Dados.
 
-3. Criar a experiência de usuário para que a jornada de consentimento seja possível para os clientes. O Guia de experiência do usuário traz mais detalhes sobre essa jornada.  
+3. Criar a experiência de usuário para que a jornada de consentimento seja possível para os clientes. O Guia de Experiência do Usuário traz mais detalhes sobre essa jornada.  
 
 > - Para Recepção, não há necessidade de construir a camada de integração.  
 > - A API do módulo de recepção de dados pode ser [encontrada aqui][API-Recepção].
-> - Para avaliar o guia de experiência do usuário, [clique aqui][GuiaUX].
+> - Para avaliar o Guia de Experiência do Usuário, [clique aqui][GuiaUX].
 
 [DiagramaSequência]: ./anexos/imagens/itp-consentSequence.png
 [GuiaUX]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/1477279745/v.19.00.01+Guia+de+Experi+ncia+do+Usu+rio+Open+Finance+Brasil

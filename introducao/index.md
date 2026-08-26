@@ -52,13 +52,13 @@ O ITP é o perfil que permite à sua instituição iniciar pagamentos em nome de
 
 #### 2. Requisitos regulatórios e certificações
 
-- [Certificações e Certificados](/docs/certificacoesecertificados): O ITP precisa da **certificação OpenID RP** (*Relying Parties*) e do **Certificado de Autenticação**. A página detalha o que cada um exige, como obtê-los e quais autoridades certificadoras são homologadas.
+- [Certificações e Certificados](/docs/certificados): O ITP precisa da **certificação OpenID RP** (*Relying Parties*) e do **Certificado de Autenticação**. A página detalha o que cada um exige, como obtê-los e quais autoridades certificadoras são homologadas.
 
 #### 3. Licença própria vs. licença compartilhada
 
 Um ponto decisivo para novos clientes é a escolha entre usar sua própria licença ou utilizar a licença de um fornecedor.
 
-Caso utilize a licença própria, o cliente deve realizar o [Onboarding do ITP](/docs/onboardingitp), composto por:
+Caso utilize a licença própria, o cliente deve realizar o [Onboarding do ITP](/docs/onboarding), composto por:
 
 - Autorização pelo Banco Central;
 - Etapa pré-homologatória;
@@ -99,12 +99,12 @@ O Receptor de Dados é o perfil que permite à sua instituição obter dados fin
 
 #### 2. Requisitos regulatórios e certificações
 
-- [Certificações e Certificados](/docs/certificacoesecertificados): Assim como o ITP, o Receptor precisa da **certificação OpenID RP** (*Relying Parties*) e do **Certificado de Autenticação**. A tabela de necessidade de certificados por perfil ajuda a identificar exatamente o que contratar.
+- [Certificações e Certificados](/docs/certificados): Assim como o ITP, o Receptor precisa da **certificação OpenID RP** (*Relying Parties*) e do **Certificado de Autenticação**. A tabela de necessidade de certificados por perfil ajuda a identificar exatamente o que contratar.
 
 #### 3. Dados disponíveis para recepção
 
 - [Recepção de Dados — funcionamento e endpoints](/docs/recepcaodedados): Endpoints de consentimento (criação, consulta, revogação, renovação) e os aproximadamente 78 proxies regulatórios organizados por família: clientes, contas, cartão de crédito, operações de crédito, câmbio e investimentos;
-- [Compartilhamento de Dados — visão de integração](/docs/compartilhamentodedados): Como os dados recebidos se organizam, por produto financeiro;
+- Compartilhamento de Dados — visão de integração: Como os dados recebidos se organizam, por produto financeiro;
 - [Consentimento Compartilhado — Recepção de Dados](/docs/recepcaodedados): Gestão do ciclo de vida dos consentimentos de dados na perspectiva do produto.
 
 #### 4. Fluxos técnicos e redirecionamento

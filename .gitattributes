@@ -1,0 +1,15 @@
+# Normaliza o fim de linha para LF (padrão do ReadMe e deste repositório).
+# Evita que editores no Windows (CRLF) marquem arquivos como alterados.
+* text=auto eol=lf
+
+# Binários: nunca normalizar
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.woff  binary
+*.woff2 binary
+*.xlsx binary
+*.docx binary
