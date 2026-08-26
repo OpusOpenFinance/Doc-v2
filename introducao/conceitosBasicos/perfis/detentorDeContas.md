@@ -5,13 +5,13 @@ summary: "O perfil de participação como Detentor de Conta no Open Finance Bras
 
 ## Detentor de Conta
 
-O perfil de participação como **Detentor de Conta** no *Open Finance Brasil* representa a instituição que recebe solicitações de pagamento de um **Iniciador de Transação de Pagamento (ITP)**. Este perfil na **Plataforma Opus Open Finance** é responsável por atender todas as exigências regulatórias estabelecidas pelo Banco Central.
+O perfil de participação como **Detentor de Conta** no *Open Finance Brasil* representa a Instituição que recebe solicitações de pagamento de um **Iniciador de Transação de Pagamento (ITP)**. Este perfil na **Plataforma Opus Open Finance** é responsável por atender todas as exigências regulatórias estabelecidas pelo Banco Central.
 
 ---
 
 ### Ecossistema Open Finance - Detentor de Conta
 
-Os Detentores de Contas são as instituições onde os clientes possuem contas de depósito à vista, contas de poupança e contas de pagamento pré-pagas, que podem ser acessadas no contexto do *Open Finance Brasil* para processar iniciações de pagamento. Quem envia os pedidos de pagamento são instituições homologadas como *iniciadoras de transação de pagamento*.
+Os Detentores de Contas são as Instituições onde os clientes possuem contas de depósito à vista, contas de poupança e contas de pagamento pré-pagas, que podem ser acessadas no contexto do *Open Finance Brasil* para processar iniciações de pagamento. Quem envia os pedidos de pagamento são Instituições homologadas como *Iniciadoras de Transação de Pagamento*.
 
 ---
 

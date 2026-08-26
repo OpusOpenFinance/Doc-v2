@@ -5,11 +5,11 @@ summary: "As instituições financeiras podem participar do Open Finance Brasil 
 
 ## Perfis de Participação
 
-As instituições financeiras podem participar do *Open Finance Brasil* cumprindo vários papéis específicos, aqui denominados Perfis de Participação. Algumas instituições financeiras são obrigadas a participar com determinados perfis, mas todas as instituições podem, voluntariamente, exercer todos os perfis existentes.
+As Instituições financeiras podem participar do *Open Finance Brasil* cumprindo vários papéis específicos, aqui denominados Perfis de Participação. Algumas Instituições financeiras são obrigadas a participar com determinados perfis, mas todas as Instituições podem, voluntariamente, exercer todos os perfis existentes.
 
 ![Perfis do Open Finance](./anexos/imagens/index-perfis.png)
 
-Os perfis exercidos pelas instituições financeiras podem ser divididos nos dois ecossistemas existentes: compartilhamento de dados e pagamentos. Em cada um deles existe uma parte ativa (que é quem inicia uma ação) e uma parte passiva, que responde à ação disparada pela parte ativa.
+Os perfis exercidos pelas Instituições financeiras podem ser divididos nos dois ecossistemas existentes: Compartilhamento de Dados e Pagamentos. Em cada um deles existe uma parte ativa (que é quem inicia uma ação) e uma parte passiva, que responde à ação disparada pela parte ativa.
 
 ### No ecossistema de Dados
 

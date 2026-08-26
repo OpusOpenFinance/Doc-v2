@@ -5,7 +5,7 @@ summary: "O Iniciador de Transação de Pagamento (ITP) é o perfil do Open Fina
 
 ## Iniciador de Transação de Pagamentos
 
-O **Iniciador de Transação de Pagamento (ITP)** é o perfil do Open Finance Brasil autorizado a realizar iniciações de pagamento no ecossistema. O ITP conduz jornadas de consentimento para a realização de pagamentos junto a instituições participantes do Open Finance que possuem o perfil Detentoras de Conta. Esse perfil possibilita uma série de novos casos de uso, pois o ITP faz a ponte entre a Instituição e o Cliente, não precisando possuir a custódia dos recursos em nenhum momento da transação e não sendo o titular da conta corrente que realizará a liquidação do pagamento.
+O **Iniciador de Transação de Pagamento (ITP)** é o perfil do Open Finance Brasil autorizado a realizar iniciações de pagamento no ecossistema. O ITP conduz jornadas de consentimento para a realização de pagamentos junto a Instituições participantes do Open Finance que possuem o perfil Detentoras de Conta. Esse perfil possibilita uma série de novos casos de uso, pois o ITP faz a ponte entre a Instituição e o Cliente, não precisando possuir a custódia dos recursos em nenhum momento da transação e não sendo o titular da conta corrente que realizará a liquidação do pagamento.
 
 ### Ecossistema Open Finance - ITP
 
