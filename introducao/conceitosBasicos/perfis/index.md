@@ -13,13 +13,13 @@ Os perfis exercidos pelas Instituições financeiras podem ser divididos nos doi
 
 ### No ecossistema de Dados
 
-- Transmissora de Dados - Parte passiva.
-- Receptora de Dados - Parte ativa.
+- [Receptor de Dados](./receptorDeDados.md) (parte ativa) - Solicita o compartilhamento de dados à parte passiva e os recebe para uso próprio.
+- [Transmissor de Dados](./transmissorDeDados.md) (parte passiva) - Recebe a solicitação de compartilhamento da parte ativa e disponibiliza os dados pedidos de forma padronizada.
 
 ### No ecossistema de Pagamentos
 
-- Detentora de Conta - Parte passiva.
-- Iniciadora de Transação de Pagamento (ITP) - Parte ativa.
+- [Iniciador de Transação de Pagamento (ITP)](./itpConceito.md) (parte ativa) - Realiza iniciações de pagamento em nome do cliente, sem ter a custódia dos recursos, nem ser titular da conta que liquida o pagamento.
+- [Detentor de Conta](./detentorDeContas.md) (parte passiva) - Recebe a ordem de iniciação de pagamento da parte ativa, executa a liquidação do pagamento e retorna o status da transação.
 
 ### Plataforma Opus Open Finance
 
